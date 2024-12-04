@@ -19,28 +19,28 @@ A simple weather app that displays real-time weather for your current location a
 
 2. Obtain an API Key:
    To fetch weather data, you need an API key. Here are some popular options:
-     a. OpenWeather:
-           Go to [OpenWeather API](https://openweathermap.org/api) and sign up for a free account.
-           After signing up, you'll be provided with an API key that you can use to access weather data.
+      a. OpenWeather:
+            Go to [OpenWeather API](https://openweathermap.org/api) and sign up for a free account.
+            After signing up, you'll be provided with an API key that you can use to access weather data.
 
-     b. WeatherAPI:
-           Go to [WeatherAPI](https://www.weatherapi.com/) and create a free account.
-           After signing up, get your API key and use it in the project.
+      b. WeatherAPI:
+            Go to [WeatherAPI](https://www.weatherapi.com/) and create a free account.
+            After signing up, get your API key and use it in the project.
 
-     c. Weatherstack:
-           Go to [Weatherstack](https://weatherstack.com/) and signup for a free account.
-           After signing up, obtain your API key and use it in the project.
+      c. Weatherstack:
+            Go to [Weatherstack](https://weatherstack.com/) and signup for a free account.
+            After signing up, obtain your API key and use it in the project.
    
-4. Replace API Key in the Project:
+3. Replace API Key in the Project:
    Open the script.js file.
    ```Replace the placeholder API key with your own key
        const API_KEY = 'your-api-key'; // Replace with your Weather API key
 
-5. Start a Local Server:
+4. Start a Local Server:
    ```You can use any server to run the app. If you have Python installed, you can start a simple HTTP server:
        python -m http.server
 
-6. Access the App:
+5. Access the App:
    ```Open your browser and go to:
        http://localhost:8000
 
