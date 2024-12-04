@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="weather-left">
+      <h1>Current Location Weather</h1>
+      <div class="weather">
+        <h2 id="currentLocation">Location: --</h2>
+        <h3 id="currentTemperature">Temperature: --</h3>
+        <h3 id="currentCondition">Condition: --</h3>
+        <h3 id="currentHumidity">Humidity: --</h3>
+        <h3 id="currentWind">Wind Speed: --</h3>
+        <img id="currentWeatherIcon" alt="Weather icon" src="" hidden>
+      </div>
+    </div>
+
+    <div class="weather-right">
+      <h1>Search City Weather</h1>
+      <div class="search">
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button id="searchButton">Search</button>
+      </div>
+      <div class="weather">
+        <h2 id="searchedCity">City: --</h2>
+        <h3 id="searchedTemperature">Temperature: --</h3>
+        <h3 id="searchedCondition">Condition: --</h3>
+        <h3 id="searchedHumidity">Humidity: --</h3>
+        <h3 id="searchedWind">Wind Speed: --</h3>
+        <img id="searchedWeatherIcon" alt="Weather icon" src="" hidden>
+      </div>
+      <p id="errorMessage" class="error"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
